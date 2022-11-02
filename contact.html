@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="styles.css">
     <title>Contact Me</title>
 </head>
 <body>
-    <header class="banner"><img src="" alt=""></header>
+    <header ><img class="banner" src="Images/ContactBanner.svg" alt=""></header>
 
     <aside class="nav-container">
       
@@ -16,25 +17,54 @@
             
             <li><a href="about.html" target="_blank">Home</a></li>
             <li><a href="AboutMe.html" target="_blank">About Me</a></li>
+            <li><a href="contact.html" target="_blank">Contact Me</a></li>
             <li><a href="courses.html" target="_blank">Courses/Certifications</a></li>
             <li class="projects">   
                 <span>Work <ion-icon class="chevron-down-outline" name="chevron-down-outline"></ion-icon> </span>
                 <ul class="projects-sub-menu">
-                    <li><a href="projects.html" target="_blank">Adobe Captivate</a></li>
-                    <li><a href="projects.html" target="_blank">Articulate 360</a></li>
-                    <li><a href="projects.html" target="_blank">Articulate Storyline</a></li>
-                    <li><a href="projects.html" target="_blank">Infographics/Flyers</a></li>
-                    <li><a href="projects.html" target="_blank">Presentations</a></li>
-            <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="Adobe.html" target="_blank">Adobe Captivate</a></li>
+                    <li><a href="360.html" target="_blank">Articulate 360</a></li>
+                    <li><a href="storyline.html" target="_blank">Articulate Storyline</a></li>
+                    <li><a href="flyers.html" target="_blank">Infographics/Flyers</a></li>
+                    <li><a href="presentation.html" target="_blank">Presentations</a></li>
+            
            
                 </ul>
         </ul>
     </aside>
-   <section class="formHolder">
-    
+  
+<form>
+<div class="formcontainer">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="number">Number</label>
+           <input type="text" id="number" name="number" placeholder="Your Phone Number">
+           
+           <label for="email">Email</label>
+           <input type="text" id="number" name="email" placeholder="Your Email">
+      
+            <label for="Service Request">Service Request</label>
+           <input type="text" id="number" name="Subject" placeholder="Service Needed?">
+           <input type="submit" value="Submit">
+           </form>
+        
+           <br/><br/><br/>
 
+
+     <a href="https://www.linkedin.com/in/memeewinston/">
+  <img src="Images/Linkedin.png">
+Check out my LinkedIn!
+</a>  
+
+    
 
    </section>
     
 </body>
 </html>
+
